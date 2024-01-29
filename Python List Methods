@@ -1,1 +1,98 @@
 
+Python provides a variety of built-in methods for manipulating lists. Here are some commonly used list methods:
+
+
+append(x):
+Adds an element x to the end of the list.
+
+numbers = [1, 2, 3]
+numbers.append(4)
+# Result: numbers is now [1, 2, 3, 4]
+
+
+
+extend(iterable):
+Extends the list by appending elements from the iterable.
+
+fruits = ['apple', 'banana']
+fruits.extend(['orange', 'grape'])
+# Result: fruits is now ['apple', 'banana', 'orange', 'grape']
+
+
+
+insert(i, x):
+Inserts an element x at a specified index i.
+
+numbers = [1, 2, 3]
+numbers.insert(1, 4)
+# Result: numbers is now [1, 4, 2, 3]
+
+
+
+remove(x):
+Removes the first occurrence of element x from the list.
+
+fruits = ['apple', 'banana', 'orange']
+fruits.remove('banana')
+# Result: fruits is now ['apple', 'orange']
+
+
+
+
+pop([i]):
+Removes and returns the element at index i. If i is not specified, the last element is removed.
+
+numbers = [1, 2, 3, 4]
+popped_element = numbers.pop(2)
+# Result: popped_element is 3, numbers is now [1, 2, 4]
+
+
+
+
+
+index(x[, start[, end]]):
+Returns the index of the first occurrence of element x in the list.
+
+numbers = [1, 2, 3, 4, 3]
+index_of_three = numbers.index(3)
+# Result: index_of_three is 2
+
+
+
+
+count(x):
+Returns the number of occurrences of element x in the list.
+
+numbers = [1, 2, 3, 4, 3]
+count_of_three = numbers.count(3)
+# Result: count_of_three is 2
+
+
+
+
+sort(key=None, reverse=False):
+Sorts the elements of the list in ascending order. The key and reverse parameters are optional.
+
+numbers = [4, 2, 1, 3]
+numbers.sort()
+# Result: numbers is now [1, 2, 3, 4]
+
+
+
+reverse():
+Reverses the order of the elements in the list.
+
+fruits = ['apple', 'banana', 'orange']
+fruits.reverse()
+# Result: fruits is now ['orange', 'banana', 'apple']
+
+
+copy():
+Returns a shallow copy of the list.
+
+original_list = [1, 2, 3]
+copied_list = original_list.copy()
+# Result: copied_list is [1, 2, 3]
+
+
+
