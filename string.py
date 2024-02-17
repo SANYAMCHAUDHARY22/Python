@@ -24,3 +24,24 @@ print ("var2[1:5]: ", var2[1:5])
 str = "this is string example....wow!!! this is really string"
 print (str.replace("is", "was"))
 print (str.replace("is", "was", 3))
+#countring the number of occurences of a substring
+#The method count() returns the number of occurrences of substring sub in the range [start, end]. Optional arguments start and end are interpreted as in slice notation.
+#Syntax
+#Following is the syntax for count() method −
+#str.count(sub, start= 0,end=len(string))
+#Parameters
+#sub − This is the substring to be searched.
+#start − Search starts from this index. First character starts from 0 index. By default search starts from 0 index.
+#end − Search ends from this index. First character starts from 0 index. By default search ends at the last index.
+#Return Value
+#This method returns the number of occurrences of substring sub in the range [start, end].
+#Example
+#The following example shows the usage of count() method.
+str = "this is string example....wow!!!"
+sub = 'i'
+print ("str.count('i') : ", str.count(sub))
+sub = 'exam'
+print ("str.count('exam', 10, 40) : ", str.count(sub,10,40))
+#Python String find() Method
+#The method find() determines if the string str occurs in string, or in a substring of string if the starting index beg and ending index end are given. This method is same as find(), but raises an exception if sub is not found.
+#Syntax
