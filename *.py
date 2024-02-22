@@ -27,4 +27,5 @@ array=[1,2,3,4,5]
 print(*array, sep=" ", end=' jai ')
 
 array=["sanyam"]
-print(*array)
+print(*array
+     
